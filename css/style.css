@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	color: #fff;
+	background-color: #343333;
+	background-size: cover;
+	background-image: url(https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-of-natural-black-stone-wall_38607-444.jpg?size=626&ext=jpg&ga=GA1.2.1382204969.1625356800);*/
+}
+header{
+	line-height: 55px;
+}
+h2{
+    font-style: italic;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black;
+}
+.slick-slider-menu{
+	max-height: 120px;
+	display: flex;
+	overflow-x: auto;
+}
+.slick-slider-menu::-webkit-scrollbar{
+	width: 0;
+}
+.slick-slider-menu .burger {
+    min-width: 110px;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #000;
+    margin-right: 28px;
+}
+.burger:hover{
+	cursor: pointer;
+	background-color: #eb6200
+}
+#burger-active{
+	background-color: #eb6200;
+}
+.header-left-menu i{
+	font-size: 28px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.header-search{
+	font-size: 28px;
+
+}
+.header-search i{
+	position: absolute;
+    float: right;
+    top: 15px;
+    right: 10px;
+}
+.logo-name{
+	margin-bottom: 15px;
+}
+.price {
+    margin-top: 10px;
+    width: 50%;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: black;
+}
+
+.burger-img img{
+	width: 100%;
+	height: auto;
+}
+.burger-description{
+    text-align: center;
+}
+.burger-name{
+    text-align: center;
+	font-weight: bolder;
+}
+
+/*PLUS BUTTON CSS*/
+/*.btn {
+    position: relative;
+    top: -40px;
+    float: right;
+    width: 180px;
+    right: -50px;
+    height: 40px;
+}*/
+.btn button {
+    border-radius: 50%;
+    position: relative;
+    background: #eb6200;
+    border: none;
+    font-weight: bold;
+    top: -40px;
+    left: 50px;
+    padding: 3px 10px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.minusBtn,.plusBtn{
+	display: none;
+	font-weight: 700;
+}
+/*END BUTTON CSS*/
+
+.footer-fixed-menu {
+    position: fixed;
+    border-top: 1px solid #ffffff6e;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    transition: 0.3s;
+    background-color: #343333;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-of-natural-black-stone-wall_38607-444.jpg?size=626&ext=jpg&ga=GA1.2.1382204969.1625356800);
+    z-index: 999;
+    line-height: 55px;
+    padding: 10px;
+    
+   
+}
+.footer-items {
+    align-items: center;
+    min-width: 80px;
+    line-height: 36px;
+    cursor: pointer;
+    text-align: center;
+}
+.footer-fixed-menu .footer-items i {
+    margin-right: 10px;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+}
+.footer-fixed-menu .footer-items i:hover {
+    color: #eb6200;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+#footer-items-active i {
+    color: #eb6200;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+.text-white{
+    font-size: 20px;
+    text-decoration: none;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:70px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
